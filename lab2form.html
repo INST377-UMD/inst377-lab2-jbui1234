@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - Form</title>
+    <style>
+        body {
+            background-color: #53f1c4;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            margin: 40px;
+        }
+
+        .form-container label {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .form-container input[type="text"] {
+            margin-bottom: 25px;
+            padding: 12px;
+            width: 100%;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #32a;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="lab2thankyou.html" method="get">
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" name="username" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
